@@ -73,6 +73,7 @@ class _UserInformationPageState extends State<UserInformationPage> {
                   newPassword = value; // Mettre à jour la variable locale
                 },
                 controller: _passwordController,
+                obscureText: true,
                 decoration: InputDecoration(labelText: 'Nouveau mot de passe'),
               ),
             ],
